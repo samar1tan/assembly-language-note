@@ -16,10 +16,14 @@ Z:\>d:\
 ```cmd
 D:\>debug
 ```
- # Summary: Used Commands
- - -r[register-name]: to read and write registers
- - -d [segment:offset] [amount-of-displayed]: to display binary code in memory
- - -u [segment:offset] [amount-of-displayed]: to display the disassembling result
- - -e [segment:offset] [... ... ...]: to edit in memory
- - -a [segment:offset]: to write instructions into memory in the form of assembly code
- - -t: to execute the instruction pointed by CS:IP
+# Summary: Used Commands
+- To monitor registers
+    - -r[register-name]: read and write registers
+- To display memory
+    - -d [segment:offset] [amount-of-displayed]: display binary code in memory
+    - -u [segment:offset] [amount-of-displayed]: display the disassembling result
+- To edit memory
+    - -e [segment:offset] [... ... ...]: with numbers or ASCII char/string
+    - -a [segment:offset]: with assembly code
+- To execute
+    - -t: the instruction pointed by CS:IP
