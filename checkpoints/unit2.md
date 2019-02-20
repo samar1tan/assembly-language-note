@@ -22,4 +22,7 @@ add ax, ax
 2. after `sub` being read into the instruction buffer
 3. after `jmp` being read into the instruction buffer
 4. after `jmp` being executed
+
+
+
 The final value of IP is 0
