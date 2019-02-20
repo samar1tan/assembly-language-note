@@ -18,8 +18,8 @@ D:\>debug
 ```
  # Summary: Used Commands
  - -r[register-name]: to read and write registers
- - -d [segment-address:offset-addr] [amount-of-displayed]: to display binary code in memory
- - -u [segment-address:offset-addr] [amount-of-displayed]: to display the disassembling result
- - -e [segment-address:offset-addr] [... ... ...]: to edit in memory
- - -a [segment-addr:offset-addr]: to write instructions into memory in the form of assembly code
+ - -d [segment:offset] [amount-of-displayed]: to display binary code in memory
+ - -u [segment:offset] [amount-of-displayed]: to display the disassembling result
+ - -e [segment:offset] [... ... ...]: to edit in memory
+ - -a [segment:offset]: to write instructions into memory in the form of assembly code
  - -t: to execute the instruction pointed by CS:IP
