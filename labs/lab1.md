@@ -20,8 +20,8 @@ D:\>debug
 - To monitor registers
     - -r[register-name]: read and write registers
 - To display memory
-    - -d [segment:offset] [amount-of-displayed]: binary code
-    - -u [segment:offset] [amount-of-displayed]: the disassembling result
+    - -d [segment:offset] [display-amount]: binary code
+    - -u [segment:offset] [display-amount]: the disassembling result
 - To edit memory
     - -e [segment:offset] [... ... ...]: with numbers or ASCII char/string
     - -a [segment:offset]: with assembly code
