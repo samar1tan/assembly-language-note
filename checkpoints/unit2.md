@@ -11,9 +11,11 @@ add ax, ax
 ```
 # 2.2
 ## (1)
-- 0010H; 0010H + FFFFH - 1 = 1000EH
+- 0010H
+- 0010H + FFFFH - 1 = 1000EH
 ## (2)
-- (20000H - FFFFH + 1) / 16 = 1000H; 20000H / 16 = 2000H
+- (20000H - FFFFH + 1) / 16 = 1000H
+- 20000H / 16 = 2000H
 # 2.3
 4 times:
 1. after `mov` being read into the instruction buffer
