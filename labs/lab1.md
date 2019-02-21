@@ -1,5 +1,5 @@
 # Dependencies
-- [DOSBox](https://www.dosbox.com/), an x86 emulator with DOS
+- [DOSBox](https://www.dosbox.com/), an cross-platform x86 emulator with DOS
 - debug.exe (download it from any download site)
 # Configuration
 1. move `debug.exe` into wherever accessible like `D:\`
