@@ -21,4 +21,4 @@ mov ds, ax;     CS = 0ff0H, IP = 0105H, DS = 2000H
 mov ax, [0008]; CS = 0ff0H, IP = 0108H, AX = C389H
 mov ax, [0002]; CS = 0ff0H, IP = 010BH, AX = EA66H
 ```
-There is no difference between data and program (instruction) from the perspective of memory, since they are both represented as binary strings. The classification, which is with the help of segment registers like CS/DS, is made according to their storage positions, i.e., which memory segments (code/data segment) they belong to.
+There is no difference between data and program (instruction) from the perspective of memory, since they are both represented as binary strings. The classification, which is based on segment registers like CS/DS, is made according to their storage positions, i.e., which memory segments (code/data segment) they belong to.
