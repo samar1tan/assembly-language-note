@@ -5,17 +5,17 @@
 - E626H
 - 2662H
 - D6E6H
-- FD58H
-- 2C24H
+- FD48H
+- 2C14H
 - 0000H
 - 00E6H
 - 0000H
 - 0026H
-- 011CH
+- truncate 010CH into 000CH ~~010CH~~
 ## (2)
 ```assembly
 mov ax, 6622H;  CS = 2000H, IP = 0003H, AX = 6622H
-jmp 0ff0:0100;  CS = 0ff0H, IP = 0100H
+jmp 0ff0:0100;  CS = 0ff0H, IP = 0008H -> 0100H
 mov ax, 2000H;  CS = 0ff0H, IP = 0103H, AX = 2000H
 mov ds, ax;     CS = 0ff0H, IP = 0105H, DS = 2000H
 mov ax, [0008]; CS = 0ff0H, IP = 0108H, AX = C389H
@@ -31,7 +31,7 @@ mov sp, 10H
 ```
 ## (2)
 ```assembly
-mov ax, 2000H
+mov ax, 1000H
 mov ss, ax
 mov sp, 0
 ```
