@@ -21,4 +21,17 @@ mov ds, ax;     CS = 0ff0H, IP = 0105H, DS = 2000H
 mov ax, [0008]; CS = 0ff0H, IP = 0108H, AX = C389H
 mov ax, [0002]; CS = 0ff0H, IP = 010BH, AX = EA66H
 ```
-There is no difference between data and instruction from the perspective of memory, since they are both stored as binary strings. The classification, which occurs in case of memory accessing in some relative addressing mode like CS:IP -> instruction and DS[index] -> data, is made according to their storage positions, i.e., which memory segments (code/data segment) they belong to.
+There is no difference between data and instruction from the perspective of memory, since they are both stored in the form of binary strings. The classification, which occurs in case of memory accessing in some relative addressing mode like CS:IP -> instruction and DS[index] -> data, is made according to their storage positions, i.e., which memory segments (code/data segment) they belong to.
+# 3.2
+## (1)
+```assembly
+mov ax, 2000H
+mov ss, ax
+mov sp, 10H
+```
+## (2)
+```assembly
+mov ax, 2000H
+mov ss, ax
+mov sp, 0
+```
