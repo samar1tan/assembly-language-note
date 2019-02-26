@@ -1,4 +1,4 @@
-# (1) a check-off for mentioned theory of stack
+# (1) a verification of mentioned theory of stack
 **personal** executing results are as follows，
 ```assembly
 mov ax, ffff
