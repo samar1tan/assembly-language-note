@@ -7,7 +7,7 @@ You can download debugging toolchain, including the programs mentioned above, fr
 ```
 URL：https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA
 passcode：nfyj
-MD5 hash of `DEBUG.zip`: 1b3b8bbae4d467421d24f6efe0ffe502
+MD5 hash of "DEBUG.zip": 1b3b8bbae4d467421d24f6efe0ffe502
 ``` 
 ## Configuration
 Move the required programs into the disk which you mounted in DOSBox.
