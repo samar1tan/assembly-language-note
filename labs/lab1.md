@@ -1,4 +1,4 @@
-# Dependencies
+# Requirements
 - [DOSBox](https://www.dosbox.com/), a cross-platform x86 emulator with DOS
 - debug.exe (download it from any download site)
 # Configuration
