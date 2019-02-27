@@ -1,4 +1,5 @@
-# Programming, Compiling, Linking and Debugging: 1st self-written program
+# Programming, Compiling, Linking and Debugging
+1st self-written program
 ## Requirements
 - MASM.EXE: Microsoft(R) Macro Assembler 
 - LINK.EXE: Microsoft(R) Overlay Linker
