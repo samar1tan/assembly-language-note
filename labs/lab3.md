@@ -10,7 +10,10 @@ passcode：nfyj
 ```
 ## Configuration
 Move the required programs into the disk which you mounted in DOSBox.
-## Result
+## Personal Result
 ### Tracking Execution
 ![lab3-trace](../data/lab3-trace.png)
-### Observing [PSP](https://en.wikipedia.org/wiki/Program_Segment_Prefix)
+### Observing [PSP, Program Segment Prefix](https://en.wikipedia.org/wiki/Program_Segment_Prefix)
+``` assembly
+CD	20	FF	9F	00	EA	FF	FF	AD	DE	4F	03	39	02	8A	03
+```
