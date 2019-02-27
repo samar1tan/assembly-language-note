@@ -12,5 +12,5 @@ passcode：nfyj
 Move the required programs into the disk which you mounted in DOSBox.
 ## Result
 ### Tracking Execution
-![lab3-trace](data/lab3-trace.png)
+![lab3-trace](../data/lab3-trace.png)
 ### Observing [PSP](https://en.wikipedia.org/wiki/Program_Segment_Prefix)
