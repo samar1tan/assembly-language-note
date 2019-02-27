@@ -24,4 +24,4 @@ push [6]; sp = 00FC; written mem addr: 2200:01FE, content: 30F0
 ```
 # (2) a prologue to *interrupt*
 > - We might easily find that for unknown purpose there are the value of register `CS`, `IP` and `AX` in the changed area of memory. Indeed, the value of `BP` and flag registers are also in there.
-> - Why? Actually it leads to an *interrput* when executing command `t` in `DEBUG.EXE`, and then system automatically pushes the current (of the statement executed in single-stepping) register variables into a stack so as to recover from *interrupt handler*.
+> - Why? Actually it leads to an *interrupt* when executing command `t` in `DEBUG.EXE`, and then system automatically pushes the current (of the statement executed in single-stepping) register variables into a stack so as to recover from *interrupt handler*.
