@@ -7,7 +7,7 @@
 
 
 
-You can download the debugging toolchain, including the programs mentioned above, from my Baidu netdisk:
+You can download a debugging toolchain, including the programs mentioned above, from my Baidu netdisk:
 ```
 URL：https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA
 passcode：nfyj
