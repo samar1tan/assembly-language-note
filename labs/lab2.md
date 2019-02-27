@@ -23,7 +23,5 @@ push [4]; sp = 00FE; written mem addr: 2200:0100, content: 2F31
 push [6]; sp = 00FC; written mem addr: 2200:01FE, content: 30F0
 ```
 # (2) a prologue to *interrupt*
-> - 初始没有执行这段代码时，我们使用d命令观察2000:00内存，都是00，怎么创建栈结构指向这段内存时，我们发现有些数据了。这些数据是什么？
-> - 我们发现这里面有cs值、ip值、ax值（这个容易看出来），还有bp值（00 00），还有flag的值（不容易发现）。
-> - 为什么，**联想到操作系统的相关知识**，在讲内中断这章时，你就明白了。
-> - t命令实际是引发了单步中断，执行中断例程时，CPU会将一些中断例程使用的的寄存器变量自动压栈到栈中，此例中就包括了上述的寄存器变量的值。
+> - We might easily find that for unknown purpose there are the value of register `CS`, `IP` and `AX` in the changed area of memory. Indeed, the value of `BP` and flag registers are also in there.
+> - Why? Actually it leads to an *interrput* when executing command `t` in `DEBUG.EXE`, and then system automatically pushes the current (of the statement executed in single-stepping) register variables into a stack so as to recover from *interrupt handler*.
