@@ -3,13 +3,12 @@
 - MASM.EXE: Microsoft(R) Macro Assembler 
 - LINK.EXE: Microsoft(R) Overlay Linker
 - EDIT.COM (optional): MS-DOS Editor
-
-
-
 You can download debugging toolchain, including the programs mentioned above, from my Baidu netdisk:
-- URL：[https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA](https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA)
-- Passcode：nfyj
-- MD5: 
+```
+URL：https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA
+passcode：nfyj
+MD5 hash of `DEBUG.zip`: 1b3b8bbae4d467421d24f6efe0ffe502
+``` 
 ## Configuration
 Move the required programs into the disk which you mounted in DOSBox.
 ## Personal Results
