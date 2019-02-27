@@ -4,11 +4,9 @@
 - LINK.EXE: Microsoft(R) Overlay Linker
 - EDIT.COM (optional): MS-DOS Editor
 You can download debugging toolchain, including the programs mentioned above, from my Baidu netdisk:
-```
-URL：[https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA](https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA)
-Passcode：nfyj
-MD5: 
-```
+- URL：[https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA](https://pan.baidu.com/s/1AB4HHXveXFZkHZJlRCpMgA)
+- Passcode：nfyj
+- MD5: 
 ## Configuration
 Move the required programs into the disk which you mounted in DOSBox.
 ## Personal Result
