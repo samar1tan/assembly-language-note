@@ -22,6 +22,6 @@ pop bx; sp = 0100; bx = C0FC
 push [4]; sp = 00FE; written mem addr: 2200:0100, content: 2F31
 push [6]; sp = 00FC; written mem addr: 2200:01FE, content: 30F0
 ```
-# (2) a prologue to *interrupt*
+!()[https://www.geeksforgeeks.org/memory-layout-of-c-program/](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/memoryLayoutC.jpg)
 > - We might easily find that for unknown purpose there are the value of register `CS`, `IP` and `AX` in the changed area of memory. Indeed, the value of `BP` and flag registers are also in there.
 > - Why? Actually it leads to an *interrupt* when executing command `t` in `DEBUG.EXE`, and then system automatically pushes the current (of the statement executed in single-stepping) register variables into a stack so as to recover from *interrupt handler*.
